@@ -14,8 +14,6 @@ namespace MindforkBlog.Models
         public string AuthorName { get; set; }
         public int TotalComments { get; set; }
 
-
         public virtual List<CommentsViewModel> blogCommnets { get; set; }
-
     }
 }
